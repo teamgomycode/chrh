@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/296/625/non_2x/calculator-on-a-blue-background-photo.jpg);
+}
+
+table{
+    border-style: none;
+    height: 400px;
+    width: 400px;
+    margin-left: 200px;
+}
+
+#input1{
+    margin-left: 200px;
+    margin-top: 60px;
+    height: 40px;
+    width: 385px;
+    background-color: beige;
+    border: none;
+    border-bottom: 2px solid rgb(16, 98, 250);
+}
+#input2{
+    margin-top: 5px;
+    margin-left: 200px;
+    height: 40px;
+    width: 385px;
+    background-color:beige;
+    border: none;
+    border-bottom: 2px solid rgb(16, 98, 250);
+}
+
+button{
+    background-color: rgb(16, 98, 250);
+    height: 55px;
+    width: 85px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: block;
+}
+
+
+
