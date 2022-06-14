@@ -5,39 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
+    <link href="../CSS/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
     <form name="f">
-        <input  name="T2" size="20" style="font-weight: 700" value=""   id="output">
+        <input id="input1" name="T2" size="20" style="font-weight: 700" value=""   id="output"  readonly="readonly" >
         <br>
-        <input name="T1" size="20" style="font-weight: 700" value=""    id="input" > 
+        <input id="input2"  name="T1" size="20" style=" font-weight: 700" value=""    id="input"    readonly="readonly"  > 
         <table>
         
         <tr>
+            
             <td><button id="btn1"  type="button"   onclick="sasie(this.value)"    value="1" >1</button></td>
             <td><button id="btn2"  type="button"   onclick="sasie(this.value)"    value="2" >2</button></td>
             <td><button id="btn3"  type="button"   onclick="sasie(this.value)"    value="3" >3</button></td>
-            <td><button id="btn+"  type="button"   onclick="sasie(this.value)"    value="+">+</button></td>
+           
+            <td><button id="btnAC"  type="button"   onclick=" AC()"    value="AC" >AC</button></td>
         </tr>
         <tr> 
             <td><button id="btn4"  type="button"   onclick="sasie(this.value)"    value="4">4</button></td>
             <td><button id="btn5"  type="button"   onclick="sasie(this.value)"    value="5">5</button></td>
             <td><button id="btn6"  type="button"   onclick="sasie(this.value)"    value="6">6</button></td>
-            <td><button id="btn-"  type="button"   onclick="sasie(this.value)"    value="-">-</button></td>
+            <td><button id="btn-"  type="button"   onclick="sasie_A(this.value)"    value=" - ">-</button></td>
         </tr>
         <tr>
             <td><button id="btn7"  type="button"   onclick="sasie(this.value)"    value="7">7</button></td>
             <td><button id="btn8"  type="button"   onclick="sasie(this.value)"    value="8">8</button></td>
             <td><button id="btn9"  type="button"   onclick="sasie(this.value)"    value="9">9</button></td>
-            <td><button id="btn/"  type="button"   onclick="sasie(this.value)"    value="/">/</button></td>
+            <td><button id="btn/"  type="button"   onclick="sasie(this.value)"    value=" / ">/</button></td>
         </tr>
         <tr>
-            <td><button id="btn%"  type="button"   onclick="sasie(this.value)"    value="%" >%</button></td>
-            <td><button id="btn0"  type="button"   onclick="sasie(this.value)"    value="0">0</button></td>
-            <td><button id="btn*"  type="button"   onclick="sasie(this.value)"    value="*">*</button></td>
-            <td><button id="btn="  type="button"   onclick="calcul()"             value="=">=</button></td>
+            <td><button id="btn+"  type="button"   onclick="sasie_A(this.value)"    value=" + ">+</button></td>
+            <td><button id="btn0"  type="button"   onclick="sasie_A(this.value)"    value="0">0</button></td>
+            <td><button id="btn*"  type="button"   onclick="sasie_A(this.value)"    value=" * ">*</button></td>
+            <td><button id="btn="  type="button"   onclick="calcul()"             value=" =">=</button></td>
             
         </tr>
     </table>
